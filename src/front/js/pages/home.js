@@ -21,7 +21,9 @@ export const Home = () => {
 	return (
 		<div className="text-center mt-5">
 			<h1>Hello Rigo!</h1>
-
+			<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+				Launch demo modal
+			</button>
 			{/* Here is a list of planets */}
 			<h1>Planets</h1>
 			<div className="row">{listPlanets}</div>
